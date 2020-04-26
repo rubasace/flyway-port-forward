@@ -5,4 +5,7 @@
 
 # You can whitelist files/folders with !, these will not be ignored.
 !.gitignore
-!.Dockerfile
+!Dockerfile
+!entrypoint.sh
+!kube_config
+!kube_config/**
